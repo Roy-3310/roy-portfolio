@@ -1,0 +1,86 @@
+@use "./variables" as *;
+
+#background-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.03)
+  );
+  filter: blur(0px);
+  opacity: 0.8;
+  animation: rise 18s linear infinite;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  to {
+    transform: translateY(-120vh) translateX(80px) scale(1.15);
+  }
+}
+
+// positions
+.x1 {
+  left: 5%;
+  animation-duration: 18s;
+  transform: scale(0.85);
+}
+.x2 {
+  left: 15%;
+  animation-duration: 22s;
+  transform: scale(0.65);
+}
+.x3 {
+  left: 28%;
+  animation-duration: 20s;
+  transform: scale(1.05);
+}
+.x4 {
+  left: 40%;
+  animation-duration: 26s;
+  transform: scale(0.75);
+}
+.x5 {
+  left: 52%;
+  animation-duration: 19s;
+  transform: scale(1.25);
+}
+.x6 {
+  left: 66%;
+  animation-duration: 24s;
+  transform: scale(0.55);
+}
+.x7 {
+  left: 74%;
+  animation-duration: 21s;
+  transform: scale(0.9);
+}
+.x8 {
+  left: 82%;
+  animation-duration: 27s;
+  transform: scale(0.7);
+}
+.x9 {
+  left: 92%;
+  animation-duration: 23s;
+  transform: scale(1.1);
+}
+.x10 {
+  left: 96%;
+  animation-duration: 29s;
+  transform: scale(0.6);
+}

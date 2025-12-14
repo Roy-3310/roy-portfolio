@@ -1,0 +1,42 @@
+export const siteProfile = {
+  name: "Roy",
+  title: "Web Engineer / UIUX / Interactive Design",
+  location: "Taiwan",
+  summary:
+    "我是一位網頁工程師，擅長前端互動視覺、UIUX 設計與全端整合。作品包含 Fit Meal Life（代表作）、視覺互動實驗、職訓課程專題與Unity遊戲。",
+  email: "a712893654@gmail.com",
+  github: "https://github.com/Roy-3310",
+  //   linkedin: "https://www.linkedin.com/in/yourname",
+  avatar: "/src/assets/images/avatar.jpg",
+  skills: [
+    { name: "HTML5 / CSS3 / SCSS", level: 95 },
+    { name: "JavaScript", level: 90 },
+    { name: "React", level: 84 },
+    { name: "TypeScript", level: 82 },
+    { name: "Node.js / Express", level: 78 },
+    { name: "n8n", level: 74 },
+    { name: "Python", level: 72 },
+    { name: "Vue 3", level: 70 },
+    { name: "PHP", level: 68 },
+    { name: "Lereval", level: 60 },
+    { name: "C# / Unity", level: 30 },
+  ],
+  resume: {
+    education: "職訓局(跨平台網站架設專班) / 修平科技大學(化學工程系) ",
+    experience: [
+      "永勝光學 配料工程師",
+      "麵包舞曲 烘焙師",
+      "沛美生醫 化妝品製作專員",
+    ],
+    languages: ["中文：精通", "英文：讀、寫略懂"],
+    strengths: [
+      "具備前端基礎能力，能以穩定方式完成頁面與互動功能",
+      "熟悉元件化開發流程，重視結構清楚與可維護性",
+      "能依需求逐步拆解功能，從簡單實作累積完成度",
+      "具備基本的除錯與問題定位能力，能主動查資料與修正",
+      "有前後端串接與資料流處理的實作經驗",
+      "理解部署與環境設定流程，能配合實務專案進行調整",
+      "重視使用者操作順暢度與畫面一致性",
+    ],
+  },
+};

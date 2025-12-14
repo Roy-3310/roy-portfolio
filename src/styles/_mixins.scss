@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+@mixin container {
+  width: min(100% - 32px, #{$max});
+  margin: 0 auto;
+}
+
+@mixin card {
+  background: $card;
+  border: 1px solid $line;
+  border-radius: $radius-lg;
+  box-shadow: $shadow;
+}
+
+@mixin hoverLift {
+  transition: transform 180ms ease, background 180ms ease,
+    border-color 180ms ease;
+  &:hover {
+    transform: translateY(-4px);
+    background: $card2;
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+}
