@@ -2,7 +2,7 @@ export const trainingProjects = [
   {
     id: "training-01",
     name: "職訓課程實作｜會員註冊系統（CRUD 練習）",
-    cover: "/src/assets/images/training-01.jpg",
+    cover: "/images/training-01.jpg",
     summary:
       "以 Bootstrap 與 jQuery 建立前端表單，串接 PHP 與 MySQL，完成會員註冊與基本 CRUD 操作流程。",
     concept:
@@ -14,7 +14,7 @@ export const trainingProjects = [
   {
     id: "training-02",
     name: "版型切版實作｜旅遊租借服務形象網站",
-    cover: "/src/assets/images/training-02.jpg",
+    cover: "/images/training-02.jpg",
     summary:
       "以 HTML 與 SCSS 為基礎，完成旅遊租借服務形象網站首頁版型與視覺呈現。",
     concept:
@@ -26,7 +26,7 @@ export const trainingProjects = [
   {
     id: "training-03",
     name: "Illustrator 基礎訓練｜鋼筆工具與路徑控制練習",
-    cover: "/src/assets/images/training-03.jpg",
+    cover: "/images/training-03.jpg",
     summary: "透過系統化練習鋼筆工具，熟悉直線、曲線與複合路徑的繪製與控制。",
     concept:
       "以線條為核心進行基礎訓練，從直線到多段貝茲曲線，逐步理解錨點、控制桿與路徑方向之間的關係，培養精準且可預期的向量繪圖能力。",
@@ -37,7 +37,7 @@ export const trainingProjects = [
   {
     id: "training-04",
     name: "後台管理系統實作｜PHP + MySQL CRUD 操作",
-    cover: "/src/assets/images/training-04.jpg",
+    cover: "/images/training-04.jpg",
     summary:
       "使用傳統 PHP 與 MySQL 建立後台管理介面，完成資料新增、查詢、修改與刪除（CRUD）流程。",
     concept:

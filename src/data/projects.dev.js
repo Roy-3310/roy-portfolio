@@ -4,7 +4,7 @@ export const devProjects = [
     id: "unity-mini-game",
     name: "Unity RPG遊戲",
     category: "Unity",
-    cover: "/src/assets/images/dev-unity-01.jpg",
+    cover: "/images/dev-unity-01.jpg",
     summary: "2D 遊戲原型，展示角色控制、碰撞、關卡與 UI。",
     tabs: [
       {
@@ -28,13 +28,13 @@ export const devProjects = [
     ],
 
     gallery: [
-      "/src/assets/images/dev-unity-01.jpg",
-      "/src/assets/images/dev-unity-02.jpg",
-      "/src/assets/images/dev-unity-03.jpg",
-      "/src/assets/images/dev-unity-04.jpg",
-      "/src/assets/images/dev-unity-05.jpg",
-      "/src/assets/images/dev-unity-06.jpg",
-      "/src/assets/images/dev-unity-07.jpg",
+      "/images/dev-unity-01.jpg",
+      "/images/dev-unity-02.jpg",
+      "/images/dev-unity-03.jpg",
+      "/images/dev-unity-04.jpg",
+      "/images/dev-unity-05.jpg",
+      "/images/dev-unity-06.jpg",
+      "/images/dev-unity-07.jpg",
     ],
   },
 
@@ -43,7 +43,7 @@ export const devProjects = [
     id: "canvas-city-scene",
     name: "網頁視覺互動：Canvas 動態街景模擬",
     category: "Web Interactive",
-    cover: "/src/assets/images/dev-web-interactive-01.jpg",
+    cover: "/images/dev-web-interactive-01.jpg",
     summary:
       "以 Canvas 2D API 建構完整的街景場景，結合時間驅動動畫與滑鼠互動，模擬具生命感的動態城市背景。",
     demoComponent: "CitySceneCanvas",
@@ -75,7 +75,7 @@ export const devProjects = [
     id: "project04-agar",
     name: "Canvas 吞噬成長互動世界",
     category: "Web Interactive",
-    cover: "/src/assets/images/dev-web-game-01.jpg",
+    cover: "/images/dev-web-game-01.jpg",
     summary: "Canvas + 向量運算 + 即時互動的可玩作品。",
     demoComponent: "Project04Showcase",
     tabs: [
@@ -98,7 +98,7 @@ export const devProjects = [
     id: "monster-shooter",
     name: "Monster Shooter｜載入後怪物射擊得分",
     category: "Web Game",
-    cover: "/src/assets/images/dev-monster-shooter.jpg", // 你可先放一張示意圖
+    cover: "images/dev-monster-shooter.jpg", // 你可先放一張示意圖
     summary:
       "結合 Loading（時間函數）與射擊事件觸發：載入完成後生成怪物，點擊射擊得分並維持怪物數量。",
     demoComponent: "MonsterShooterDemo",
@@ -130,7 +130,7 @@ export const devProjects = [
     id: "radar-beam-shooter",
     name: "Radar Beam Shooter（雷達掃描射擊）",
     category: "Web Interactive",
-    cover: "/src/assets/images/dev-radar-01.jpg", // 你自己放一張封面
+    cover: "/images/dev-radar-01.jpg", // 你自己放一張封面
     summary:
       "玩家船艦定期放出雷達偵測，滑鼠控制極座標光束照射後自動發射飛彈；敵人為三角函數繪製多邊形並帶頂點小艇防禦/撞擊。",
     demoComponent: "RadarShooterDemo",

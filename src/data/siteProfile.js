@@ -7,7 +7,7 @@ export const siteProfile = {
   email: "a712893654@gmail.com",
   github: "https://github.com/Roy-3310",
   //   linkedin: "https://www.linkedin.com/in/yourname",
-  avatar: "/src/assets/images/avatar.jpg",
+  avatar: "/images/avatar.jpg",
   skills: [
     { name: "HTML5 / CSS3 / SCSS", level: 95 },
     { name: "JavaScript", level: 90 },

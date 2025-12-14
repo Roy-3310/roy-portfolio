@@ -3,7 +3,7 @@ export const artProjects = [
     id: "ps-01",
     name: "Photoshop 合成練習｜雙極情緒主視覺海報",
     tool: "Adobe Photoshop",
-    cover: "/src/assets/images/art-ps-01.jpg",
+    cover: "/images/art-ps-01.jpg",
     concept:
       "以人物為視覺核心，透過左右分割構圖呈現冷暖色調與情緒對立，結合環狀色彩層次與透明材質，營造內在狀態與情感轉換的視覺張力，同時引導觀者視線聚焦於主體與主標題區域。",
     techniques: [
@@ -17,7 +17,7 @@ export const artProjects = [
     id: "ps-02",
     name: "Photoshop 合成練習｜自然意象重構",
     tool: "Adobe Photoshop",
-    cover: "/src/assets/images/art-ps-02.jpg",
+    cover: "/images/art-ps-02.jpg",
     concept:
       "以自然元素為核心，透過多重影像合成與透明層次重構現實與想像的交界，運用彩虹光譜作為視覺動線，串聯蝴蝶、果實與花卉，使畫面呈現流動感與夢境般的敘事氛圍。",
     techniques: [
@@ -31,7 +31,7 @@ export const artProjects = [
     id: "ps-03",
     name: "Photoshop 合成練習｜產品系列視覺設計",
     tool: "Adobe Photoshop",
-    cover: "/src/assets/images/art-ps-03.jpg",
+    cover: "/images/art-ps-03.jpg",
     concept:
       "以系列商品為設計主軸，透過一致的瓶身結構與鏡面反射處理，結合不同水果材質與色彩辨識，建立清楚的產品區隔與商業陳列邏輯，強化價格資訊與商品辨識度。",
     techniques: [
@@ -45,7 +45,7 @@ export const artProjects = [
     id: "ps-04",
     name: "Photoshop 合成練習｜社會議題概念主視覺",
     tool: "Adobe Photoshop",
-    cover: "/src/assets/images/art-ps-04.jpg",
+    cover: "/images/art-ps-04.jpg",
     concept:
       "以人像為敘事核心，結合城市夜景與分割構圖，象徵時間、記憶與社會現實的交錯，透過強烈對比色塊與手寫字體設計，營造具衝擊力的議題型主視覺表現。",
     techniques: [
@@ -59,7 +59,7 @@ export const artProjects = [
     id: "ps-05",
     name: "Photoshop 合成練習｜品牌靜物視覺",
     tool: "Adobe Photoshop",
-    cover: "/src/assets/images/art-ps-05.jpg",
+    cover: "/images/art-ps-05.jpg",
     concept:
       "以手作麵包為視覺主體，搭配書法文字元素，營造樸實、溫度感與職人精神的品牌氛圍，透過簡潔構圖與留白設計，使產品質感與品牌調性清楚傳達。",
     techniques: [
@@ -73,7 +73,7 @@ export const artProjects = [
     id: "ai-01",
     name: "Illustrator 向量插畫：品牌圖標",
     tool: "Illustrator",
-    cover: "/src/assets/images/art-ai-01.jpg",
+    cover: "/images/art-ai-01.jpg",
     concept: "以幾何造型搭配圓角特徵，建立親和且可延展的品牌語彙。",
     techniques: ["Pathfinder", "網格對齊", "色票系統", "Icon 規格化輸出"],
   },

@@ -1,7 +1,7 @@
 export const mainProject = {
   id: "fitmeal",
   name: "Fit Meal Life（代表作品）",
-  cover: "/src/assets/images/fitmeal-cover.jpg",
+  cover: "/images/fitmeal-cover.jpg",
   link: "https://fit-meal-life-frontend.vercel.app/",
   tagline: "健身 × 飲食 × 電商 × AI 助理的整合式平台（展示用）",
   description:
@@ -14,5 +14,5 @@ export const mainProject = {
     "部署至雲端（Vercel(前端)/Zeabur(後端、n8n)/Supabase(圖片)）",
     "整合 Google Maps Directions / Elevation API 與天氣資料，針對使用者輸入的起訖點與目標距離進行路線計算與分析，並透過自訂指標評估路線長度、爬升高度與整體難度，提供具備實際運動參考價值的慢跑路線建議。",
   ],
-  screenshots: ["/src/assets/images/fitmeal-cover.jpg"],
+  screenshots: ["/images/fitmeal-cover.jpg"],
 };
