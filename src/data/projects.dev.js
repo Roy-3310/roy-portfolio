@@ -98,7 +98,7 @@ export const devProjects = [
     id: "monster-shooter",
     name: "Monster Shooter｜載入後怪物射擊得分",
     category: "Web Game",
-    cover: "images/dev-monster-shooter.jpg", // 你可先放一張示意圖
+    cover: "/images/dev-monster-shooter.jpg", // 你可先放一張示意圖
     summary:
       "結合 Loading（時間函數）與射擊事件觸發：載入完成後生成怪物，點擊射擊得分並維持怪物數量。",
     demoComponent: "MonsterShooterDemo",
