@@ -100,7 +100,7 @@ export const devProjects = [
     category: "Web Game",
     cover: "/images/dev-monster-shooter.jpg",
     summary:
-      "結合 Loading（時間函數）與射擊事件觸發：載入完成後生成怪物，點擊射擊得分並維持怪物數量。",
+      "結合 Loading（時間函數）與射擊事件觸發：載入完成後生成怪物，射擊得分並維持怪物數量。",
     demoComponent: "MonsterShooterDemo",
     tabs: [
       {
