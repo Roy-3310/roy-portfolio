@@ -3,7 +3,7 @@
     <!-- =========================================================
       PHASE 1: Loading（載入中）
       - 進度條 0→100
-      - Loading 怪物（眼睛會偶爾左右看）
+      - Loading 怪物
     ========================================================== -->
     <section
       v-if="phase === 'loading'"
@@ -12,7 +12,6 @@
     >
       <div class="loadingMonster" aria-hidden="true">
         <div class="eye">
-          <!-- 注意：Loading 怪物不是 v-for 的 m，所以用 loadingEyeOffsetX -->
           <div
             class="eyeball"
             :style="{ transform: `translateX(${loadingEyeOffsetX}px)` }"
@@ -119,7 +118,7 @@
           :style="{ left: s.x + 'px', top: s.y + 'px' }"
         ></div>
 
-        <!-- 怪物：點擊怪物射擊，stop 避免觸發 arena click 造成多個彈孔 -->
+        <!-- 怪物-->
         <button
           v-for="m in monsters"
           :key="m.id"
@@ -129,7 +128,6 @@
           @click.stop="shootMonster(m)"
         >
           <div class="eye">
-            <!-- 注意：這裡的 m 一定是在 v-for scope 內，所以不會 undefined -->
             <div
               class="eyeball"
               :style="{ transform: `translateX(${m.eyeOffsetX}px)` }"
@@ -154,7 +152,7 @@
         ></div>
       </div>
 
-      <!-- 作品說明（你也可搬到作品頁另一張卡） -->
+      <!-- 作品說明 -->
       <div class="desc">
         <div class="title">作品說明</div>
         <ul>
@@ -215,7 +213,7 @@ import { ref, reactive, onMounted, onUnmounted, nextTick } from "vue";
 
 /* =========================================================
   顏色定義（怪物種類）
-  - 這裡是任務目標的 key
+  任務目標的 key
 ========================================================= */
 const COLOR_KEYS = ["green", "blue", "pink"];
 
@@ -317,7 +315,6 @@ function generateMission(lv) {
   for (const c of COLOR_KEYS) mission.kills[c] = 0;
 
   // 目標數量：基礎 + 關卡成長 + 隨機浮動
-  // 你可依喜好調整
   const base = 1 + Math.floor(lv / 2); // lv1~2:1，lv3~4:2...
   for (const c of COLOR_KEYS) {
     mission.need[c] = base + Math.floor(Math.random() * (1 + Math.min(lv, 3)));
@@ -359,7 +356,7 @@ function createMonster(cfg) {
     eyeOffsetX: 0,
     nextEyeMoveAt: performance.now() + 800 + Math.random() * 2200,
 
-    // 🔥 命中回饋狀態（新增）
+    //  命中回饋狀態（新增）
     hit: false, // 是否正在命中狀態
     hitUntil: 0, // 命中結束時間（timestamp）
   });
@@ -410,7 +407,6 @@ function updateMonsters(cfg) {
   }
 }
 
-/* 眼睛偶爾左右看（低頻率，避免抖動與效能浪費） */
 function updateMonsterEyes() {
   const now = performance.now();
   for (const m of monsters.value) {

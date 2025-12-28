@@ -98,7 +98,7 @@ export const devProjects = [
     id: "monster-shooter",
     name: "Monster Shooter｜載入後怪物射擊得分",
     category: "Web Game",
-    cover: "/images/dev-monster-shooter.jpg", // 你可先放一張示意圖
+    cover: "/images/dev-monster-shooter.jpg",
     summary:
       "結合 Loading（時間函數）與射擊事件觸發：載入完成後生成怪物，點擊射擊得分並維持怪物數量。",
     demoComponent: "MonsterShooterDemo",
@@ -122,7 +122,7 @@ export const devProjects = [
           "載入後切換場景、準星射擊、點擊命中得分、怪物移動模式切換（K）、重置（R）、怪物數量自動補齊、彈孔效果與黑底格線背景。",
       },
     ],
-    gallery: [], // 有 demo 就不需要截圖區
+    gallery: [],
   },
 
   //雷達掃描射擊
@@ -130,7 +130,7 @@ export const devProjects = [
     id: "radar-beam-shooter",
     name: "Radar Beam Shooter（雷達掃描射擊）",
     category: "Web Interactive",
-    cover: "/images/dev-radar-01.jpg", // 你自己放一張封面
+    cover: "/images/dev-radar-01.jpg",
     summary:
       "玩家船艦定期放出雷達偵測，滑鼠控制極座標光束照射後自動發射飛彈；敵人為三角函數繪製多邊形並帶頂點小艇防禦/撞擊。",
     demoComponent: "RadarShooterDemo",

@@ -13,4 +13,11 @@ export const certificates = [
     year: "2016",
     image: "/images/cert-02.jpg",
   },
+  {
+    id: "cert-03",
+    name: "GSAP Animation Masterclass 完課證明",
+    issuer: "Udemy",
+    year: "2025",
+    image: "/images/cert-03.jpg",
+  },
 ];
